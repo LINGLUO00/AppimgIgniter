@@ -1,0 +1,46 @@
+[package]
+name = "appimg-igniter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# ────────────────────────────────
+# 命令行参数解析
+clap = { version = "4.5", features = ["derive"] }
+
+# 异步运行时
+tokio = { version = "1", features = ["full"] }
+
+# 错误处理
+anyhow = "1"
+
+# 结构化日志
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = [
+    "env-filter",
+    "fmt",
+    "ansi",
+] }
+
+# 目录操作
+directories = "5"
+
+# 配置序列化 / 反序列化
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+# 文件系统监控
+notify = { version = "8", default-features = false }
+
+# 系统调用封装
+nix = { version = "0.30", features = ["process", "signal"] }
+
+# ELF 文件解析
+goblin = "0.10"
+
+# 桌面集成
+freedesktop-desktop-entry = "0.7"
+xdg = "3"
+
+# 开发期诊断,让 anyhow error 链注入 tracing
+tracing-error = "0.2"
