@@ -1,0 +1,4 @@
+# AppimgIgniter/rust-toolchain.toml
+[toolchain]
+channel = "stable"        # 始终跟随最新稳定版
+profile = "default"       # 只装编译器+Cargo，节约磁盘
