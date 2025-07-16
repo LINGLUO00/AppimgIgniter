@@ -1,0 +1,10 @@
+/home/hyl/Softwares/AppimgIgniter/appimg-igniter/target/debug/deps/libfreedesktop_desktop_entry-f2188f63064d2c10.rmeta: /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/lib.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/decoder.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/exec.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/iter.rs
+
+/home/hyl/Softwares/AppimgIgniter/appimg-igniter/target/debug/deps/libfreedesktop_desktop_entry-f2188f63064d2c10.rlib: /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/lib.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/decoder.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/exec.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/iter.rs
+
+/home/hyl/Softwares/AppimgIgniter/appimg-igniter/target/debug/deps/freedesktop_desktop_entry-f2188f63064d2c10.d: /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/lib.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/decoder.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/exec.rs /home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/iter.rs
+
+/home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/lib.rs:
+/home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/decoder.rs:
+/home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/exec.rs:
+/home/hyl/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/freedesktop-desktop-entry-0.7.13/src/iter.rs:
