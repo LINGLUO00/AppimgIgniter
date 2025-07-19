@@ -1,17 +1,14 @@
 use anyhow::{Result, anyhow};
-use std::clone;
 use std::collections::HashMap;
 use std::ffi::{CStr, CString};
 use std::fs::File;
-use std::io::{BufRead, BufReader, Read};
+use std::io::{BufRead, BufReader};
 use std::option::Option;
 use std::os::raw::c_char;
 use std::os::unix::ffi::OsStrExt;
-use std::path::{Path, PathBuf};
+use std::path::{Path};
 use std::string::ToString;
-use std::time::Duration;
 use std::time::{SystemTime, UNIX_EPOCH};
-use std::{option, string, vec};
 ///
 /// #
 /// * 'name' - appimage name
@@ -60,7 +57,7 @@ fn list_files(appimage_path: &Path) -> Result<Vec<String>> {
         let mut idx = 0;
         loop {
             let item_ptr = *list_ptr.add(idx);
-            if (item_ptr.is_null()) {
+            if item_ptr.is_null() {
                 break;
             }
             let r_str = CStr::from_ptr(item_ptr).to_string_lossy().into_owned();

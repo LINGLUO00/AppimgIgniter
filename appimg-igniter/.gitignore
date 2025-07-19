@@ -1,0 +1,55 @@
+# ────────────────────────────────
+# Rust / Cargo
+# ────────────────────────────────
+/target/
+**/*.rs.bk
+
+# Incremental compilation files
+**/incremental/
+
+# Generated bindings (if produced by bindgen)
+bindings.rs
+
+# ────────────────────────────────
+# C/C++ build artifacts (via cc crate, etc.)
+# ────────────────────────────────
+/build/
+/out/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# ────────────────────────────────
+# Test & coverage output
+# ────────────────────────────────
+/coverage/
+
+# ────────────────────────────────
+# Logs & temp files
+# ────────────────────────────────
+*.log
+*.tmp
+*.temp
+
+# ────────────────────────────────
+# IDE / Editor specific
+# ────────────────────────────────
+.idea/
+.vscode/
+*.sw?
+*~
+
+# ────────────────────────────────
+# OS generated files
+# ────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ────────────────────────────────
+# Others
+# ────────────────────────────────
+CACHEDIR.TAG
