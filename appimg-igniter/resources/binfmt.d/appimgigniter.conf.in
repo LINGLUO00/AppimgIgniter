@@ -1,0 +1,2 @@
+:appimage-type1:M:8:AI\x01::@BINFMT_INTERPRETER_PATH@:F
+:appimage-type2:M:8:AI\x02::@BINFMT_INTERPRETER_PATH@:F

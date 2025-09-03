@@ -1,2 +1,2 @@
-pub mod logging;
 pub mod appimage;
+pub mod logging;
