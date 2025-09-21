@@ -10,7 +10,7 @@ static LOG_INIT: Lazy<()> = Lazy::new(|| {
 #[tokio::test]
 async fn test_extract_metadata() -> Result<()> {
     Lazy::force(&LOG_INIT);
-    let image_path = Path::new("/home/hyl/Documents/Test/Cursor-1.2.1-x86_64.AppImage");
+    let image_path = Path::new("~/Documents/Test/Cursor-1.2.1-x86_64.AppImage");
     info!("开始解析 AppImage: {}", image_path.display());
 
     let metadata = extract_metadata(image_path)?;
